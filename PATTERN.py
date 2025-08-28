@@ -1,7 +1,2 @@
-rows = int(input("Enter the number of rows: "))
+print("Hello this is File1")
 
-for i in range(1, rows + 1):
-    # Printing spaces
-    print(" " * (rows - i), end="")
-    # Printing stars
-    print("*" * (2 * i - 1))
